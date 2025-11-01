@@ -28,7 +28,7 @@ mov di, 80*6 + 12*2
 
 jmp $
 
-msg db "Hello GUI Kernel!",0
+msg db "Hello! Everything seems working Fine Thats all for now stay tuned still working on this project ",0
 
 times 510-($-$$) db 0
 dw 0xAA55
