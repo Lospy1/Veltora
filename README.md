@@ -4,7 +4,7 @@
 ## 🇹🇷 Türkçe
 
 **Veltora**, tamamen **sıfırdan** yazılmış küçük bir işletim sistemi projesidir.  
-Şu anlık sadece boot edildiğinde mavi bir ekranda yazı gösteriyor — ama bu, başlangıcın ta kendisi
+Şu anlık sadece boot edildiğinde mavi bir ekranda yazı gösteriyor ama bu, başlangıcın ta kendisi
 
 Belki zamanla bir çekirdek, dosya sistemi ve arayüzle büyür…  
 Takipte kalın! 🚀
@@ -14,7 +14,7 @@ Takipte kalın! 🚀
 ## 🇺🇸 English
 
 **Veltora** is a small operating system built completely **from scratch**.  
-Currently, it only shows a message on a blue screen when booted — but this is just the beginning 💡  
+Currently, it only shows a message on a blue screen when booted but this is just the beginning 💡  
 
 It may grow into a real OS one day, with a kernel, filesystem, and GUI.  
 Stay tuned! 🌠
@@ -38,5 +38,7 @@ Stay tuned! 🌠
 
 ### 🧠 Derleme / Build
 
-```bash
-nasm -f bin src/boot.asm -o kernel.bin
+``bash
+nasm -f bin src/boot.asm -o kernel.bin ``
+### 📸 A Little Photo
+![alt text](https://github.com/Lospy1/Veltora/blob/main/extras/View.png?raw=true)
