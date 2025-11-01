@@ -1,19 +1,16 @@
 
----
-
-## boot.asm (a)
-
-```asm
 org 0x7C00
 
 mov ax, 0xB800
 mov es, ax
 xor di, di
 
+
 mov cx, 2000
 mov al, ' '
 mov ah, 0x1F
 rep stosw
+
 
 mov si, msg
 mov di, 80*6 + 12*2
@@ -28,8 +25,7 @@ mov di, 80*6 + 12*2
 
 jmp $
 
-msg db "Hello! Everything seems working Fine Thats all for now stay tuned still working on this project ",0
+msg db "Hello! Veltora OS",0
 
 times 510-($-$$) db 0
 dw 0xAA55
-
