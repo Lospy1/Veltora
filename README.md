@@ -40,5 +40,13 @@ Stay tuned! 🌠
 
 ``bash
 nasm -f bin src/boot.asm -o kernel.bin ``
-### 📸 A Little Photo
-![alt text](https://github.com/Lospy1/Veltora/blob/main/extras/View.png?raw=true)
+
+## 🇹🇷
+
+**Veltora** henüz yeni bir proje olduğu için hatalarla karşılaşmanız olasıdır.
+**Gelecek** güncellemelerde bu hatalar azaltılacak ve sistem daha kararlı hale gelecektir.
+
+## 🇺🇸
+
+Since **Veltora** is still a new project, you may encounter some bugs.
+These issues will be reduced and the system will become more stable in **future** updates.
