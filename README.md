@@ -6,6 +6,7 @@
 Şu anda yalnızca önyükleme (boot) sonrasında mavi bir ekranda yazı gösterse de, bu yalnızca başlangıçtır.  
 
 Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri**, ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
+
 Bu proje tek bir geliştirici tarafından yürütüldüğü için bazı güncellemeler gecikebilir.  
 Bu durumda kullanıcıların kendi sistemlerinde çekirdeği derlemeleri gerekebilir.  
 Anlayışınız ve desteğiniz için teşekkürler.  
@@ -20,6 +21,7 @@ Takipte kalın. ⚙️
 Currently, it only displays a message on a blue screen after booting but this is just the beginning.  
   
 In future releases, it is planned to expand with features such as a **filesystem**, **kernel functions**, and a **graphical user interface (GUI)**.  
+
 
 As this project is maintained by a single developer, kernel updates may occasionally be delayed.  
 In such cases, users are encouraged to build the kernel manually on their systems.  
