@@ -1,3 +1,28 @@
+# 📦 Veltora OS - v0.2.0-alpha 🚀
+
+**Veltora OS v0.2.0-alpha yayınlandı!**
+
+---
+
+## 🎯 Yeni Özellikler
+
+- ✅ **Masaüstü Ortamı** – Tam grafiksel arayüz  
+- ✅ **Gerçek Fare Desteği** – Hareket ve tıklama  
+- ✅ **Taskbar Sistemi** – Start butonu ve görev çubuğu  
+- ✅ **Masaüstü İkonları** – My Computer, Documents, Browser, Settings  
+- ✅ **Klavye Kontrolleri** – `ESC` çıkış, `Space` yenileme  
+- ✅ **Dinamik Ekran** – Gerçek zamanlı grafik render
+
+---
+
+## 🔥 Kullanım
+
+- 🖱️ Fare ile masaüstünde gezinebilirsiniz  
+- ⌨️ `Space` tuşu ile ekranı temizleyin  
+- 🚪 `ESC` tuşu ile sistemden çıkın  
+
+---
+
 # 🌌 Veltora
 
 ## 🇹🇷 Türkçe
@@ -5,12 +30,12 @@
 **Veltora**, tamamen **sıfırdan** geliştirilen bir işletim sistemi projesidir.  
 Şu anda yalnızca önyükleme (boot) sonrasında mavi bir ekranda yazı gösterse de, bu yalnızca başlangıçtır.  
 
-Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri**, ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
+Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri** ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
 
 Bu proje tek bir geliştirici tarafından yürütüldüğü için bazı güncellemeler gecikebilir.  
 Bu durumda kullanıcıların kendi sistemlerinde çekirdeği derlemeleri gerekebilir.  
-Anlayışınız ve desteğiniz için teşekkürler.  
 
+Anlayışınız ve desteğiniz için teşekkürler.  
 Takipte kalın. ⚙️  
 
 ---
@@ -18,15 +43,14 @@ Takipte kalın. ⚙️
 ## 🇺🇸 English
 
 **Veltora** is an operating system project built completely **from scratch**.  
-Currently, it only displays a message on a blue screen after booting but this is just the beginning.  
-  
-In future releases, it is planned to expand with features such as a **filesystem**, **kernel functions**, and a **graphical user interface (GUI)**.  
+Currently, it only displays a message on a blue screen after booting, but this is just the beginning.  
 
+In future releases, it is planned to expand with features such as a **filesystem**, **kernel functions**, and a **graphical user interface (GUI)**.  
 
 As this project is maintained by a single developer, kernel updates may occasionally be delayed.  
 In such cases, users are encouraged to build the kernel manually on their systems.  
-Thank you for your patience and support.  
 
+Thank you for your patience and support.  
 Stay tuned. ⚙️  
 
 ---
@@ -49,4 +73,4 @@ Stay tuned. ⚙️
 ### 💻 Derleme / Build Command
 
 ```bash
-nasm -f bin src/boot.asm -o kernel.bin
+bash tools/build.sh
