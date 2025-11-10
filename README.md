@@ -28,7 +28,7 @@
 ## 🇹🇷 Türkçe
 
 **Veltora**, tamamen **sıfırdan** geliştirilen bir işletim sistemi projesidir.  
-Proje Türkiyede Geliştirilip Yerli Ve milli bir Yazılıdır.  
+Proje Türkiyede Geliştirilip Yerli Ve milli bir Yazılımdır.
 
 Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri** ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
 
