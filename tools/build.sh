@@ -1,41 +1,28 @@
 #!/bin/bash
 
 echo "=== Veltora OS Build System ==="
-echo "Building from: $(pwd)"
 
-# NASM kontrolü
-if ! command -v nasm &> /dev/null
-then
-    echo "NASM bulunamadı. Yükleniyor..."
-    
-    if [ -f /etc/debian_version ]; then
-        sudo apt update && sudo apt install -y nasm
-    elif [ -f /etc/arch-release ]; then
-        sudo pacman -S --noconfirm nasm
-    elif [ -f /etc/fedora-release ]; then
-        sudo dnf install -y nasm
-    elif [ -f "$PREFIX/etc/apt/sources.list" ]; then
-        # Termux
-        pkg install -y nasm
-    else
-        echo "Otomatik yükleme desteklenmiyor. Lütfen NASM'i manuel kurun."
-        exit 1
-    fi
-fi
-
-# Bootloader'ı derle
+# Bootloade
 echo "Building bootloader..."
 nasm -f bin src/boot.asm -o boot.bin
 
-if [ $? -ne 0 ]; then
-    echo "Bootloader build failed!"
-    exit 1
-fi
+# Kernel Entry 
+echo "Building kernel entry..."
+nasm -f elf32 src/kernel/kernel_entry.asm -o kernel_entry.o
 
+# Kernel
+echo "Building kernel..."
+i686-elf-gcc -c src/kernel/kernel.c -o kernel.o -ffreestanding -std=gnu99
+
+echo "Linking kernel..."
+i686-elf-ld -o kernel.bin -Ttext 0x1000 kernel_entry.o kernel.o --oformat binary
+
+# Create image
 echo "Creating disk image..."
 dd if=/dev/zero of=veltora.img bs=512 count=2880
 dd if=boot.bin of=veltora.img conv=notrunc
+dd if=kernel.bin of=veltora.img bs=512 seek=1 conv=notrunc
 
-rm -f boot.bin
+rm -f boot.bin kernel.bin *.o
 
 echo "Build successful!"
