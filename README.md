@@ -28,7 +28,7 @@
 ## 🇹🇷 Türkçe
 
 **Veltora**, tamamen **sıfırdan** geliştirilen bir işletim sistemi projesidir.  
-Şu anda yalnızca önyükleme (boot) sonrasında mavi bir ekranda yazı gösterse de, bu yalnızca başlangıçtır.  
+Proje Türkiyede Geliştirilip Yerli Ve milli bir Yazılıdır.  
 
 Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri** ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
 
@@ -43,7 +43,7 @@ Takipte kalın. ⚙️
 ## 🇺🇸 English
 
 **Veltora** is an operating system project built completely **from scratch**.  
-Currently, it only displays a message on a blue screen after booting, but this is just the beginning.  
+The project is developed in Turkiye and is a domestic and national software.
 
 In future releases, it is planned to expand with features such as a **filesystem**, **kernel functions**, and a **graphical user interface (GUI)**.  
 
