@@ -30,12 +30,9 @@
 **Veltora**, tamamen **sıfırdan** geliştirilen bir işletim sistemi projesidir.  
 Proje Türkiyede Geliştirilip Yerli Ve milli bir Yazılımdır.
 
-Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri** ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.  
+Gelecek sürümlerde, **dosya sistemi**, **çekirdek işlevleri** ve **grafiksel arayüz (GUI)** özellikleriyle büyümesi hedeflenmektedir.
 
-Bu proje tek bir geliştirici tarafından yürütüldüğü için bazı güncellemeler gecikebilir.  
-Bu durumda kullanıcıların kendi sistemlerinde çekirdeği derlemeleri gerekebilir.  
-
-Anlayışınız ve desteğiniz için teşekkürler.  
+Desteğiniz için teşekkürler.  
 Takipte kalın. ⚙️  
 
 ---
@@ -47,26 +44,8 @@ The project is developed in Turkiye and is a domestic and national software.
 
 In future releases, it is planned to expand with features such as a **filesystem**, **kernel functions**, and a **graphical user interface (GUI)**.  
 
-As this project is maintained by a single developer, kernel updates may occasionally be delayed.  
-In such cases, users are encouraged to build the kernel manually on their systems.  
-
-Thank you for your patience and support.  
+Thank you for your support.  
 Stay tuned. ⚙️  
-
----
-
-## ⚙️ Derleme / Build Instructions
-
-### 🧩 Gerekli Paketler / Requirements
-
-| Platform | Gerekli Paketler |
-|-----------|------------------|
-| **Termux (Android)** | `pkg install nasm` |
-| **Ubuntu / Debian** | `sudo apt update && sudo apt install nasm` |
-| **Arch / Manjaro** | `sudo pacman -S nasm` |
-| **Fedora** | `sudo dnf install nasm` |
-| **Windows** | [NASM Download](https://www.nasm.us/pub/nasm/releasebuilds/) and add to PATH |
-| **macOS** | `brew install nasm` (requires Homebrew) |
 
 ---
 ## ⚡ Hızlı Bir Başlangıç
