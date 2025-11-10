@@ -69,8 +69,8 @@ Stay tuned. ⚙️
 | **macOS** | `brew install nasm` (requires Homebrew) |
 
 ---
-
-### 💻 Derleme / Build Command
+## ⚡ Hızlı Bir Başlangıç
+💻 Derleme / Build Command
 
 ```bash
 bash tools/build.sh
