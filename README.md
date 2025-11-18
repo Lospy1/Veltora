@@ -7,7 +7,6 @@
 ## 🎯 Yeni Özellikler
 
 - ✅ **Masaüstü Ortamı** – Tam grafiksel arayüz  
-- ✅ **Gerçek Fare Desteği** – Hareket ve tıklama  
 - ✅ **Taskbar Sistemi** – Start butonu ve görev çubuğu  
 - ✅ **Masaüstü İkonları** – My Computer, Documents, Browser, Settings  
 - ✅ **Klavye Kontrolleri** – `ESC` çıkış, `Space` yenileme  
