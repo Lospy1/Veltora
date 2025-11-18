@@ -16,7 +16,6 @@
 
 ## 🔥 Kullanım
 
-- 🖱️ Fare ile masaüstünde gezinebilirsiniz  
 - ⌨️ `Space` tuşu ile ekranı temizleyin  
 - 🚪 `ESC` tuşu ile sistemden çıkın  
 
