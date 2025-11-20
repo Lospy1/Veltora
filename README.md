@@ -19,7 +19,7 @@
 
 - ⌨️ `Space` tuşu ile ekranı temizleyin  
 - 🚪 `ESC` tuşu ile sistemden çıkın  
-
+- 🖍️ `F1 F2 F3` Gibi tuşlar ile Yazı rengini Değişin
 ---
 
 # 🌌 Veltora
