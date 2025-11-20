@@ -6,6 +6,7 @@
 
 ## 🎯 Yeni Özellikler
 
+- 📝 **Çalışan bir Not Defteri** – Aklınıza gelen her şeyi yazabilirsiniz
 - ✅ **Nova Kernel Layer** – Daha hızlı ve stabil çekirdek  
 - ✅ **HD Masaüstü Ortamı** – Keskin çizimler ve optimize pencere sistemi  
 - ✅ **Geliştirilmiş Fare Sistemi** – Akıcı hareket, arka plan restore  
