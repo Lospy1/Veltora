@@ -23,19 +23,16 @@ then
     fi
 fi
 
-# Bootloader'ı derle
 echo "Building bootloader..."
-nasm -f bin src/boot.asm -o boot.bin
+nasm -f bin src/boot.asm -o boot.bin || { echo "Boot build failed!"; exit 1; }
 
-if [ $? -ne 0 ]; then
-    echo "Bootloader build failed!"
-    exit 1
-fi
+echo "Building kernel..."
+nasm -f bin src/kernel.asm -o kernel.bin || { echo "Kernel build failed!"; exit 1; }
 
-echo "Creating disk image..."
-dd if=/dev/zero of=veltora.img bs=512 count=2880
-dd if=boot.bin of=veltora.img conv=notrunc
+echo "Merging boot + kernel into disk image..."
+cat boot.bin kernel.bin > veltora.img
 
-rm -f boot.bin
+# Temizlik
+rm -f boot.bin kernel.bin
 
-echo "Build successful!"
+echo "Build successful! Created: veltora.img"
