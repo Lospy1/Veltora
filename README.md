@@ -6,7 +6,7 @@
 
 ## 🎯 Yeni Özellikler
 
-- 🖱️ **Çalışan Mouse Sistemi** - Mouse Desteği eklendi Artık Sol-Sağ gibi tuşlara Kullanabilir veya Masaüstünde Gezinebilirsiniz
+- 🖱️ **Çalışan Mouse Sistemi** - Mouse Desteği eklendi Artık Sol-Sağ gibi tuşları Kullanabilir veya Masaüstünde Gezinebilirsiniz
 - ✅ **Pencere Sürükleme** – Pencerelere Sol Tık basılı Tutup istediğiniz yere Sürükleyebilirsiniz
 - ⚠️ **Hesap Makinesi** - Hesap makinesi Eklendi fakat Hala geliştirilmektedir hatalar Meydana Gelebilir 
 
