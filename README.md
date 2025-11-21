@@ -1,25 +1,22 @@
-# 📦 Veltora OS - v0.3.0 🚀
+# 📦 Veltora - v0.4.0
 
-**Veltora OS v0.3.0 yayınlandı!**
+**Veltora v0.4.0 yayınlandı!**
 
 ---
 
 ## 🎯 Yeni Özellikler
 
-- 📝 **Çalışan bir Not Defteri** – Aklınıza gelen her şeyi yazabilirsiniz
-- ✅ **Nova Kernel Layer** – Daha hızlı ve stabil çekirdek  
-- ✅ **HD Masaüstü Ortamı** – Keskin çizimler ve optimize pencere sistemi  
-- ✅ **Geliştirilmiş Fare Sistemi** – Akıcı hareket, arka plan restore  
-- ✅ **Geliştirilmiş Klavye İşleme** – Daha düşük gecikme ve temiz karakter pipeline  
-- ✅ **Color Manager 2.0** – 16 renkli gerçek zamanlı panel  
+- 🖱️ **Çalışan Mouse Sistemi** - Mouse Desteği eklendi Artık Sol-Sağ Tık gibi tuşlara Kullanabilir veya Masaüstünde Gezinebilirsiniz
+- ✅ **Pencere Sürükleme** – Pencerelere Sol Tık basılı Tutup istediğiniz yere Sürükleyebilirsiniz
+- ⚠️ **Hesap Makinesi** - Hesap makinesi Eklendi fakat Hala geliştirilmektedir hatalar Meydana Gelebilir 
 
 ---
 
 ## 🔥 Kullanım
 
-- ⌨️ `Space` tuşu ile ekranı temizleyin  
-- 🚪 `ESC` tuşu ile sistemden çıkın  
-- 🖍️ `F1 F2 F3` Gibi tuşlar ile Yazı rengini Değişin
+- 🧮 `/calc` Yazarak Hesap makinesini açın
+- 🖱️ `Sol Tık` ile Pencere Taşıyın
+- 🖍️ `F1 F2 F3` Gibi tuşlar ile yazı Rengini değişin
 ---
 
 # 🌌 Veltora
