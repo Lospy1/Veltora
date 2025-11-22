@@ -27,7 +27,7 @@ echo "Building bootloader..."
 nasm -f bin src/boot.asm -o boot.bin || { echo "Boot build failed!"; exit 1; }
 
 echo "Building kernel..."
-nasm -f bin src/kernel.asm -o kernel.bin || { echo "Kernel build failed!"; exit 1; }
+nasm -f bin src/kernel/kernel.asm -o kernel.bin || { echo "Kernel build failed!"; exit 1; }
 
 echo "Merging boot + kernel into disk image..."
 cat boot.bin kernel.bin > veltora.img
