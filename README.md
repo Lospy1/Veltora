@@ -14,7 +14,7 @@
 
 ## 🔥 Kullanım
 
-- 🧮 `/calc` Yazarak Hesap makinesini açın
+- 🧮 `/calc - /calculator ` Yazarak Hesap makinesini açın
 - 🖱️ `Sol Tık` ile Pencere Taşıyın
 - 🖍️ `F1 F2 F3` Gibi tuşlar ile yazı Rengini değişin
 ---
