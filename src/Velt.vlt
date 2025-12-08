@@ -1,0 +1,11 @@
+CHART
+// Start
+
+BIND Variable = "Introducing Velt! Own Coding Language Its Amazing Isnt it?"
+// Create variable and assign value
+
+EMIT Variable
+// Output variable value
+
+ITERATE
+// End program
