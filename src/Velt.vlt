@@ -1,11 +1,11 @@
 CHART
 // Start
 
-BIND Variable = "Introducing Velt! Own Coding Language Its Amazing Isnt it?"
+BIND Variable = "Introducing Velt! Coding Languange for Veltora Its Amazing Isnt it?"
 // Create variable and assign value
 
-EMIT Variable
+Emit(Variable) 
 // Output variable value
 
-ITERATE
+END();
 // End program
