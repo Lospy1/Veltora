@@ -1,3 +1,5 @@
+# ⚠️ THIS PROJECT IS STOPPED UNTIL 6/25/2026 ⚠️
+
 # 📦 Veltora - v0.4.0
 
 **Veltora v0.4.0 yayınlandı!**
